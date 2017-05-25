@@ -1,0 +1,2 @@
+c:\users\p3loadtest\desktop\manish_perf\transaction\\pre_cci.c: C:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h:518: warning: declaration of `lr_output_message' does not match previous declaration at C-functions.c:14
+c:\users\p3loadtest\desktop\manish_perf\transaction\\pre_cci.c: C:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h:565: warning: declaration of `lr_eval_string' does not match previous declaration at C-functions.c:15

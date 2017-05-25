@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\p3loadtest\Desktop\Manish_Perf\Transaction
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\p3loadtest\desktop\manish_perf\transaction\\logfile.log
+c:\users\p3loadtest\desktop\manish_perf\transaction\\combined_Transaction.c
+c:\users\p3loadtest\desktop\manish_perf\transaction\\pre_cci.c

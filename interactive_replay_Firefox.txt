@@ -1,0 +1,121 @@
+Virtual User Script started at : 2017-05-24 01:52:01
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 2012 R2, Browser: Firefox, initialized on 2017/05/24 at 01:52:01 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "T01_Transaction_URLNavigation" started.
+t=00002163ms: ** 1: Navigate to "https:\\opperf.cat.com" ** started    [MsgId: MMSG-205180]
+t=00004752ms: ** 1: Navigate to https:\opperf.cat.com ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "T01_Transaction_URLNavigation" ended with a "Pass" status (Duration: 2.6080 Wasted Time: 0.2000).
+t=00005773ms: ** 2: Click on Capitalstream User ID textbox ** started    [MsgId: MMSG-205180]
+t=00005985ms: ** 2: Click on Capitalstream User ID textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00006983ms: ** 3: Type UserName=LR.getParam("UserName") in Capitalstream User ID textbox ** started    [MsgId: MMSG-205180]
+t=00007530ms: ** 3: Type qauser26 in Capitalstream User ID textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T02_Transaction_SignIn" started.
+t=00008564ms: ** 4: Click on Sign In button ** started    [MsgId: MMSG-205180]
+t=00014285ms: ** 4: Click on Sign In button ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "T02_Transaction_SignIn" ended with a "Pass" status (Duration: 5.7480 Wasted Time: 0.2010).
+t=00014296ms: ** 5: Wait 3 seconds ** started    [MsgId: MMSG-205180]
+t=00017517ms: ** 5: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00018536ms: ** 6: Click on Quote No textbox ** started    [MsgId: MMSG-205180]
+t=00018737ms: ** 6: Click on Quote No textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00019747ms: ** 7: Type QuoteNumber=LR.getParam("QuoteNumber") in Quote No textbox ** started    [MsgId: MMSG-205180]
+t=00020090ms: ** 7: Type 338595 in Quote No textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T03_Transaction_EnterQuoteNoAndClickGoButton" started.
+t=00021115ms: ** 9: Click on Go button ** started    [MsgId: MMSG-205180]
+t=00027825ms: ** 9: Click on Go button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T03_Transaction_EnterQuoteNoAndClickGoButton" ended with a "Pass" status (Duration: 6.7470 Wasted Time: 0.2010).
+t=00027848ms: ** 10: Wait 8 seconds ** started    [MsgId: MMSG-205180]
+t=00036097ms: ** 10: Wait 8 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T04_Transaction_ClickCreateTransactionButton" started.
+t=00037234ms: ** 12: Click on Create Transaction button ** started    [MsgId: MMSG-205180]
+t=00037542ms: ** 12: Click on Create Transaction button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T04_Transaction_ClickCreateTransactionButton" ended with a "Pass" status (Duration: 0.4580 Wasted Time: 0.2010).
+t=00037572ms: ** 13: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00042818ms: ** 13: Wait 5 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T05_Transaction_SelectCheckBoxes" started.
+t=00043838ms: ** 15: Click on I am authorized to view... checkbox ** started    [MsgId: MMSG-205180]
+t=00044711ms: ** 15: Click on I am authorized to view... checkbox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00045786ms: ** 17: Click on Please do not proceed... checkbox ** started    [MsgId: MMSG-205180]
+t=00046759ms: ** 17: Click on Please do not proceed... checkbox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T05_Transaction_SelectCheckBoxes" ended with a "Pass" status (Duration: 2.9520 Wasted Time: 1.0020).
+t=00046785ms: ** 18: Wait 3 seconds ** started    [MsgId: MMSG-205180]
+t=00049987ms: ** 18: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T06_Transaction_EnableLegalNameVerifiedCheckBox" started.
+t=00051046ms: ** 20: Click on on checkbox ** started    [MsgId: MMSG-205180]
+t=00052071ms: ** 20: Click on on checkbox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T06_Transaction_EnableLegalNameVerifiedCheckBox" ended with a "Pass" status (Duration: 1.0840 Wasted Time: 0.0010).
+t=00052080ms: ** 21: Wait 3 seconds ** started    [MsgId: MMSG-205180]
+t=00055323ms: ** 21: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00056449ms: ** 24: Select Agriculture from customer.industry type listbox ** started    [MsgId: MMSG-205180]
+t=00056932ms: ** 24: Select Agriculture from customer.industry type listbox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00058094ms: ** 26: Select AG05-Nurseries from Select Option   AgricultureCommercial... listbox ** started    [MsgId: MMSG-205180]
+t=00058095ms: ** 26: Select AG05-Nurseries from Select Option   AgricultureCommercial... listbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00059256ms: ** 28: Click on Select Option   Auction... gridcell ** started    [MsgId: MMSG-205180]
+t=00059462ms: ** 28: Click on Select Option   Auction... gridcell ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T07_Transaction_CustomerPage_ClickNextButton" started.
+t=00060539ms: ** 33: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00062147ms: ** 33: Click on Next button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T07_Transaction_CustomerPage_ClickNextButton" ended with a "Pass" status (Duration: 1.6960 Wasted Time: 0.2050).
+t=00062156ms: ** 35: Wait 3 seconds ** started    [MsgId: MMSG-205180]
+t=00065379ms: ** 35: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T08_Transaction_AddressPage_ClickNextButton" started.
+t=00066439ms: ** 36: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00067834ms: ** 36: Click on Next button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T08_Transaction_AddressPage_ClickNextButton" ended with a "Pass" status (Duration: 1.4670 Wasted Time: 0.2030).
+t=00067842ms: ** 37: Wait 3 seconds ** started    [MsgId: MMSG-205180]
+t=00071085ms: ** 37: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T09_Transaction_RelationshipPage_ClickNextButton" started.
+t=00072147ms: ** 38: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00076919ms: ** 38: Click on Next button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T09_Transaction_RelationshipPage_ClickNextButton" ended with a "Pass" status (Duration: 4.8450 Wasted Time: 0.2030).
+t=00076949ms: ** 39: Wait 3 seconds ** started    [MsgId: MMSG-205180]
+t=00080162ms: ** 39: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T10_Transaction_SelectCreditAppSubmissionDate" started.
+t=00081199ms: ** 41: Click on Calendar image ** started    [MsgId: MMSG-205180]
+t=00081923ms: ** 41: Click on Calendar image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00082969ms: ** 43: Set datepicker (1) datepicker to 30 ** started    [MsgId: MMSG-205180]
+t=00085506ms: ** 43: Set datepicker (1) datepicker to 30 ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T10_Transaction_SelectCreditAppSubmissionDate" ended with a "Pass" status (Duration: 4.3460 Wasted Time: 1.2030).
+t=00085516ms: ** 45: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00090725ms: ** 45: Wait 5 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T11_Transaction_AssetRequestInfoPage_ClickNextButton" started.
+t=00091739ms: ** 46: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00092893ms: ** 46: Click on Next button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T11_Transaction_AssetRequestInfoPage_ClickNextButton" ended with a "Pass" status (Duration: 1.1660 Wasted Time: 0.2020).
+t=00092901ms: ** 47: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00098146ms: ** 47: Wait 5 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T12_Transaction_PricingOptionsPage_ClickNextButton" started.
+t=00099285ms: ** 48: Click on Next button ** started    [MsgId: MMSG-205180]
+t=00105943ms: ** 48: Click on Next button ** successfully completed with end event 'Object Exists'    [MsgId: MMSG-205180]
+Notify: Transaction "T12_Transaction_PricingOptionsPage_ClickNextButton" ended with a "Pass" status (Duration: 6.8080 Wasted Time: 0.4030).
+t=00105962ms: ** 50: Wait 10 seconds ** started    [MsgId: MMSG-205180]
+t=00116207ms: ** 50: Wait 10 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00116273ms: ** 51: Verify  Submit Application's "Visible Text" Contain Submit Application ** started    [MsgId: MMSG-205180]
+t=00116478ms: ** 51: Verify  Submit Application's "Visible Text" Contain Submit Application ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T13_Transaction_ClickonSubmitApplicationButton" started.
+t=00117518ms: ** 52: Click on Submit Application button ** started    [MsgId: MMSG-205180]
+t=00124501ms: ** 52: Click on Submit Application button ** successfully completed with end event 'Object Exists'    [MsgId: MMSG-205180]
+Notify: Transaction "T13_Transaction_ClickonSubmitApplicationButton" ended with a "Pass" status (Duration: 7.0230 Wasted Time: 0.4020).
+t=00124511ms: ** 54: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00129772ms: ** 54: Wait 5 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00129779ms: ** 58: Get All Text from TransactionNumber link ** started    [MsgId: MMSG-205180]
+t=00130475ms: ** 58: Get All Text from TransactionNumber link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00130475ms: ** 59: Evaluate JavaScript code LR.log(transactionNumber); ** started    [MsgId: MMSG-205180]
+t=00130475ms: 339863    [MsgId: MMSG-205180]
+t=00130693ms: ** 59: Evaluate JavaScript code LR.log(transactionNumber); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00130693ms: ** 60: Evaluate JavaScript code TC.log("The Tranaction n...er, "Standard"); ** started    [MsgId: MMSG-205180]
+t=00130693ms: The Tranaction number is: 339863    [MsgId: MMSG-205180]
+t=00130913ms: ** 60: Evaluate JavaScript code TC.log("The Tranaction n...er, "Standard"); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00130913ms: ** 62: Get All Text from CustomerName link ** started    [MsgId: MMSG-205180]
+t=00131617ms: ** 62: Get All Text from CustomerName link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00131620ms: ** 65: Get All Text from UserId  ** started    [MsgId: MMSG-205180]
+t=00132324ms: ** 65: Get All Text from UserId  ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00132324ms: ** 66: Evaluate JavaScript code var loggedInUser = UserI...te+">");      ** started    [MsgId: MMSG-205180]
+t=00132527ms: ** 66: Evaluate JavaScript code var loggedInUser = UserI...te+">");      ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "T14_Transaction_Logout" started.
+t=00133587ms: ** 68: Click on Logout link ** started    [MsgId: MMSG-205180]
+t=00134277ms: ** 68: Click on Logout link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "T14_Transaction_Logout" ended with a "Pass" status (Duration: 0.7490 Wasted Time: 0.2020).
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.
